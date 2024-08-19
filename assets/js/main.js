@@ -26,11 +26,11 @@ Author: GrayGrids
         var logo2 = document.querySelector('.log1 img')
         if (window.pageYOffset > sticky) {
           header_navbar.classList.add("sticky");
-          logo.src = 'ass/lbh.png';
+          logo.src = 'assets2/logob.png';
           logo2.src='ass/iitbb.svg'
         } else {
           header_navbar.classList.remove("sticky");
-          logo.src = 'ass/lwh.png';
+          logo.src = 'assets2/logow.png';
           logo2.src='ass/iitb.svg'
         }
 

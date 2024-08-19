@@ -5,8 +5,7 @@ const nav2 = document.getElementById('nav-tab-button2');
 const nav3 = document.getElementById('nav-tab-button3');
 const nav4 = document.getElementById('nav-tab-button4');
 const nav5 = document.getElementById('nav-tab-button5');
-const nav6 = document.getElementById('nav-tab-button6');
-const nav7 = document.getElementById('nav-tab-button7');
+
 
 
 nav1.addEventListener('click',()=>{
@@ -34,16 +33,7 @@ nav5.addEventListener('click',()=>{
    window.scroll(0,findPos(insights)-90)
    document.getElementById('5').click();  
 })
-nav6.addEventListener('click',()=>{
-    console.log('clicked')
-   window.scroll(0,findPos(insights)-90)
-   document.getElementById('6').click();  
-})
-nav7.addEventListener('click',()=>{
-    console.log('clicked')
-   window.scroll(0,findPos(insights)-90)
-   document.getElementById('7').click();  
-})
+
 
 
 

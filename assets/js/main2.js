@@ -28,13 +28,13 @@ Author: GrayGrids
             header_navbar.classList.add("bg-change");
           header_navbar.classList.add("sticky");
 
-          logo.src = 'ass/lwh.png';
+          logo.src = 'assets2/logow.png';
           logo2.src='ass/iitb.svg';
         } else {
           header_navbar.classList.remove("sticky");
           header_navbar.classList.remove("bg-change");
 
-          logo.src = 'ass/lbh.png';
+          logo.src = 'assets2/logob.png';
           logo2.src = 'ass/iitbb.svg'
         }
 

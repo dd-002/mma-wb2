@@ -15,8 +15,11 @@ button {
 .tabs {
   display: flex;
   flex-direction: column;
-  height: 80vh;
   margin: auto;
+}
+
+.tabs_h80v{
+  height: 60vh;
 }
 
 .tab-buttons {
@@ -55,6 +58,7 @@ button {
   font-size: .75rem;
   letter-spacing: 0.1rem;
 }
+
 
 .tab-contents {
   padding: 2rem;
