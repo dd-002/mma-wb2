@@ -10,6 +10,22 @@ html {
   scroll-behavior: smooth;
 }
 
+
+*::-webkit-scrollbar {
+  width: 12px;             /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #081828;        /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0e735b;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #081828;  /* creates padding around scroll thumb */
+}
+
+
 body {
   font-family: "DM Sans", sans-serif;
   font-weight: normal;
@@ -2055,7 +2071,7 @@ ol {
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(
-'/ass/cover.jpg');
+'/assets2/herobg.jpg');
   }
 }
 
@@ -2065,7 +2081,7 @@ ol {
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(
-'/ass/cover.jpg');
+'/assets2/herobg.jpg');
   }
 }
 
