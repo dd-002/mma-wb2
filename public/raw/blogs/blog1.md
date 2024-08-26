@@ -1,1 +1,1 @@
-Blog 1 will be updated soon
+Blog 1 will be updated soon     
