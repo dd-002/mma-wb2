@@ -9,10 +9,12 @@ fetch("/raw/blogs/blog.json")
         v.href='/blog.html?id='+(i+1);
         var v1 = document.createElement('div');
         v1.className = "single-service"
-        v1.style.backgroundImage='url(/ass/cover.jpg)'
+        v1.style.backgroundImage='url(/raw/covers/convo.jpeg)'
+        v1.style.backgroundSize="cover"
         var v2 = document.createElement('h4');
         v2.className = "text-title"
         v2.style.margin="auto"
+        v2.style.color="white"
         v2.textContent = data[i].title;
         v1.append(v2)
         v.append(v1)
